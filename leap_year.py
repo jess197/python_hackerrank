@@ -18,10 +18,9 @@ Note that the code stub provided reads from STDIN and passes arguments to the is
 def is_leap(year):
     leap = False
     if year%4 == 0:
-        if year%100 == 0:
-            if year%400 == 0:
-                leap = True
-        leap = False
+        leap = True
+        if year%100 == 0 and not year%400 == 0:
+            leap = False
     return leap
 
 year = int(input())
