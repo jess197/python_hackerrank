@@ -9,4 +9,4 @@ number2 = int(input("A second number? "))
 number3 = int(input("A third number? "))
 number4 = int(input("A forth number? "))
 sum = number1+number2+number3+number4
-print(f"The sum of the numbers is {sum} and the means is {sum/4}")
+print(f"The sum of the numbers is {sum} and the mean is {sum/4}")
